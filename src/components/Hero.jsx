@@ -10,17 +10,7 @@ import {
    AiOutlineLinkedin,
    AiOutlineMail,
 } from "react-icons/ai";
-import {
-   DiHtml5,
-   DiCss3,
-   DiJavascript,
-   DiReact,
-   DiBootstrap,
-   DiGit,
-   DiWordpress,
-} from "react-icons/di";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { BiLogoTypescript } from "react-icons/bi";
+
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -105,11 +95,9 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.5 }}
             />
          </div>
-
             <div className="absolute insert-0 hidden md:block">
                <ShinyEffect left={0} top={0} size={1400}/>
             </div>
-            
       </div>
    );
 };
