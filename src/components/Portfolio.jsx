@@ -9,7 +9,7 @@ const projects = [
       description: "UI of a cloud storage serrver website",
       links: {
          site: "#",
-         github: "#",
+         github: "https://github.com/divinesta/PROJECT-2",
       },
    },
    {
@@ -17,8 +17,9 @@ const projects = [
       title: "SunnySide",
       description: "UI of a Sunny side website",
       links: {
-         site: "#",
-         github: "#",
+         site: "https://divinesta.github.io/sunnyside-agency-landing-page-main/",
+         github:
+            "https://github.com/divinesta/sunnyside-agency-landing-page-main",
       },
    },
    {
@@ -26,8 +27,8 @@ const projects = [
       title: "GameHub",
       description: "Lookup on different games",
       links: {
-         site: "#",
-         github: "#",
+         site: "https://game-hub-seven-iota-52.vercel.app/",
+         github: "https://github.com/divinesta/game-hub",
       },
    },
    {
@@ -35,8 +36,8 @@ const projects = [
       title: "Simple Expense Tracker",
       description: "Calculate your expenses",
       links: {
-         site: "#",
-         github: "#",
+         site: "https://expense-tracker-three-ruby.vercel.app/",
+         github: "https://github.com/divinesta/Expense-tracker",
       },
    },
 ];

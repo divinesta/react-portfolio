@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../assets/portfolio.png"
+import picture from "../assets/portfolio.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -71,15 +71,24 @@ const Hero = () => {
                   </motion.button>
 
                   <div className="flex gap-6 flex-row text-4xl md:text-5xl text-purple-400 z-20">
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                     <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        href="https://github.com/divinesta/"
+                     >
                         <AiOutlineGithub />
                      </motion.a>
 
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                     <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        href="https://www.linkedin.com/in/emilola-divine-8737b727a/"
+                     >
                         <AiOutlineLinkedin />
                      </motion.a>
 
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                     <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        href="mailto:emiloladivine123@gmail.com"
+                     >
                         <AiOutlineMail />
                      </motion.a>
                   </div>
@@ -87,17 +96,17 @@ const Hero = () => {
             </motion.div>
 
             <motion.img
-            src={picture}
-            className="w-[300px] md:w-[450px]"
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1}}
-            viewport={{ once: true }}
-            transition={{ duration: 1, delay: 1.5 }}
+               src={picture}
+               className="w-[300px] md:w-[450px]"
+               initial={{ opacity: 0, scale: 0.8 }}
+               whileInView={{ opacity: 1, scale: 1 }}
+               viewport={{ once: true }}
+               transition={{ duration: 1, delay: 1.5 }}
             />
          </div>
-            <div className="absolute insert-0 hidden md:block">
-               <ShinyEffect left={0} top={0} size={1400}/>
-            </div>
+         <div className="absolute insert-0 hidden md:block">
+            <ShinyEffect left={0} top={0} size={1400} />
+         </div>
       </div>
    );
 };
