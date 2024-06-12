@@ -9,7 +9,7 @@ const values = {
 
 const Contact = () => {
    return (
-      <div className="px-6 max-w-[1000px] mx-auto md:my-12" id="contact">
+      <div className="px-6 max-w-[1000px] mx-auto md:my-12 overflow-x-hidden" id="contact">
          <div className="grid md:grid-cols-2 place-items-center">
             <div>
                <div className="text-gray-300 my-3">

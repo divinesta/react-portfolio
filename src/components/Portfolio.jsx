@@ -30,6 +30,15 @@ const projects = [
          github: "#",
       },
    },
+   {
+      img: noImage,
+      title: "Simple Expense Tracker",
+      description: "Calculate your expenses",
+      links: {
+         site: "#",
+         github: "#",
+      },
+   },
 ];
 
 const Portfolio = () => {

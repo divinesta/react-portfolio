@@ -6,6 +6,7 @@ import {
    DiReact,
    DiBootstrap,
    DiGit,
+   DiGithubBadge,
    DiWordpress,
    DiPython,
 } from "react-icons/di";
@@ -51,6 +52,7 @@ const skills = [
             icon: <DiBootstrap className="text-purple-600" size={30} />,
          },
          { name: "Git", icon: <DiGit className="text-orange-900" size={30} /> },
+         { name: "Github", icon: <DiGithubBadge className="text-white" size={30} /> },
          {
             name: "WordPress",
             icon: <DiWordpress className="text-blue-700" size={30} />,
