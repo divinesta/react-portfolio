@@ -16,38 +16,44 @@ const skills = [
    {
       category: "Frontend",
       technologies: [
-         { name: "HTML", icon: <DiHtml5 className="text-orange-600" size={45}/> },
-         { name: "CSS", icon: <DiCss3 className="text-blue-600" size={45}/> },
+         {
+            name: "HTML",
+            icon: <DiHtml5 className="text-orange-600" size={30} />,
+         },
+         { name: "CSS", icon: <DiCss3 className="text-blue-600" size={30} /> },
          {
             name: "Tailwind CSS",
-            icon: <RiTailwindCssFill className="text-blue-500" size={45}/>,
+            icon: <RiTailwindCssFill className="text-blue-500" size={30} />,
          },
          {
             name: "Javascript",
-            icon: <DiJavascript className="text-yellow-600" size={45}/>,
+            icon: <DiJavascript className="text-yellow-600" size={30} />,
          },
          {
             name: "Typescript",
-            icon: <BiLogoTypescript className="text-blue-600" size={45}/>,
+            icon: <BiLogoTypescript className="text-blue-600" size={30} />,
          },
          {
             name: "React",
-            icon: <DiReact className="text-blue-500" size={45}/>,
+            icon: <DiReact className="text-blue-500" size={30} />,
          },
       ],
    },
    {
       category: "Others",
       technologies: [
-         { name: "Python", icon: <DiPython className="text-blue-600" size={45}/> },
+         {
+            name: "Python",
+            icon: <DiPython className="text-blue-600" size={30} />,
+         },
          {
             name: "Bootstrap",
-            icon: <DiBootstrap className="text-purple-600" size={45}/>,
+            icon: <DiBootstrap className="text-purple-600" size={30} />,
          },
-         { name: "Git", icon: <DiGit className="text-orange-900" size={45}/> },
+         { name: "Git", icon: <DiGit className="text-orange-900" size={30} /> },
          {
             name: "WordPress",
-            icon: <DiWordpress className="text-blue-700" size={45}/>,
+            icon: <DiWordpress className="text-blue-700" size={30} />,
          },
       ],
    },
@@ -68,11 +74,16 @@ const Skills = () => {
             .
          </p>
 
-         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 max-w-[1000px] mx-auto">
             {skills.map((skill, index) => (
-               <div key={index} className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg w-full md:w-1/2"> 
-                  <h3 className="text-xl font-bold mb-4 text-center">{skill.category}</h3>
-                  <div className="grid grid-cols-2 gap-3">
+               <div
+                  key={index}
+                  className="border border-purple-900 p-6 rounded-lg bg-purple-900/20 shadow-lg w-full md:w-1/2"
+               >
+                  <h3 className="text-xl font-bold mb-4 text-center">
+                     {skill.category}
+                  </h3>
+                  <div className="grid grid-cols-2 gap-4">
                      {skill.technologies.map((tech, idx) => (
                         <div key={idx} className="flex items-center space-x-2">
                            <span className="text-2xl">{tech.icon}</span>
@@ -83,7 +94,6 @@ const Skills = () => {
                </div>
             ))}
          </div>
-
       </div>
    );
 };

@@ -70,16 +70,16 @@ const Hero = () => {
                      Download Resume
                   </motion.button>
 
-                  <div className="flex gap-6 flex-row text-4xlv md:text-6xl text-purple-400 z-20">
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                  <div className="flex gap-6 flex-row text-4xl md:text-5xl text-purple-400 z-20">
+                     <motion.a whileHover={{ scale: 1. }} href="#">
                         <AiOutlineGithub />
                      </motion.a>
 
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                     <motion.a whileHover={{ scale: 1. }} href="#">
                         <AiOutlineLinkedin />
                      </motion.a>
 
-                     <motion.a whileHover={{ scale: 1.2 }} href="#">
+                     <motion.a whileHover={{ scale: 1. }} href="#">
                         <AiOutlineMail />
                      </motion.a>
                   </div>
