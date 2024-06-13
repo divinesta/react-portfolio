@@ -10,7 +10,7 @@ const Reveal = ({ children, width = 'fit-content' }) => {
    const mainControls = useAnimation()
 
    useEffect(() => {
-      if (isInveiw) {
+      if (isInView) {
          mainControls.start('visible')
       }
    }, [isInView, mainControls])

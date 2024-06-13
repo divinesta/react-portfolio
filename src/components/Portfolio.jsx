@@ -7,16 +7,16 @@ const projects = [
    {
       img: noImage,
       title: "Cloud",
-      description: "UI of a cloud storage serrver website",
+      description: "UI of a cloud storage server website",
       links: {
-         site: "#",
+         site: "https://cloud-hosting-i8uz44jxn-divinestas-projects.vercel.app/",
          github: "https://github.com/divinesta/PROJECT-2",
       },
    },
    {
       img: noImage,
       title: "SunnySide",
-      description: "UI of a Sunny side website",
+      description: "A sunny side agency landing page",
       links: {
          site: "https://divinesta.github.io/sunnyside-agency-landing-page-main/",
          github:
