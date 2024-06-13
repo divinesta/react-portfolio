@@ -3,9 +3,6 @@ import picture from "../assets/portfolio.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
-   AiOutlineArrowDown,
-   AiOutlineArrowRight,
-   AiOutlineArrowUp,
    AiOutlineGithub,
    AiOutlineLinkedin,
    AiOutlineMail,
@@ -58,7 +55,7 @@ const Hero = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 1, delay: 1.5 }}
-                  className="flex f;ex-row items-center gap-6 my-4 md:mb-0"
+                  className="flex flex-row items-center gap-6 my-4 md:mb-0"
                >
                   <motion.button
                      whileHover={{
