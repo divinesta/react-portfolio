@@ -7,10 +7,10 @@ const Footer = () => {
          <div className="space-y-4">
             <h3></h3>
             <div className="flex flex-row gap-6 text-gray-400 text-4xl">
-               <a href="#">
+               <a href="https://github.com/divinesta/">
                   <FaGithubSquare />
                </a>
-               <a href="#">
+               <a href="https://www.linkedin.com/in/emilola-divine-8737b727a/">
                   <FaLinkedin />
                </a>
             </div>
