@@ -58,33 +58,50 @@ const NavBar = () => {
             </ul>
 
             <div onClick={toggleNav} className="md:hidden z-30">
-               {nav ? 
+               {nav ? (
                   <AiOutlineClose size={30} />
-                  : 
+               ) : (
                   <AiOutlineMenu size={30} />
-               }
+               )}
             </div>
 
             <motion.div
                initial={false}
                animate={nav ? "open" : "closed"}
                variants={menuVariants}
-               className="fixed left-0 top-0 w-full h-full min-h-screen bg-gray-900 z--40"
+               className="fixed left-0 top-0 w-full h-full min-h-screen bg-gray-900 z--40 bg-opacity-70 backdrop-blur-md"
             >
-               
                <ul className="font-semibold text-4xl space-y-8 mt-24 text-center">
-                     <li>
-                     <Link to="skills" onClick={closeNav} smooth={true} offset={50} duration={500}>
+                  <li>
+                     <Link
+                        to="skills"
+                        onClick={closeNav}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                     >
                         Skills
                      </Link>
                   </li>
                   <li>
-                     <Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>
+                     <Link
+                        to="portfolio"
+                        onClick={closeNav}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                     >
                         Portfolio
                      </Link>
                   </li>
                   <li>
-                     <Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>
+                     <Link
+                        to="contact"
+                        onClick={closeNav}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                     >
                         Contact
                      </Link>
                   </li>
