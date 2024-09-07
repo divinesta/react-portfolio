@@ -79,7 +79,7 @@ const skills = [
 const Skills = () => {
    return (
       <div
-         className="flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12 max-w-[800px] mx-auto"
+         className="flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12 max-w-[1000px] mx-auto items-center"
          id="skills"
       >
          <Reveal>
@@ -105,7 +105,7 @@ const Skills = () => {
                         {skill.technologies.map((tech, idx) => (
                            <div
                               key={idx}
-                              className="flex items-center space-x-2"
+                              className="flex flex-col items-center  space-x-2 "
                            >
                               <span className="text-2xl">{tech.icon}</span>
                               <span>{tech.name}</span>
