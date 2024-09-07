@@ -9,6 +9,7 @@ import {
    DiGithubBadge,
    DiWordpress,
    DiPython,
+   DiDjango
 } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -39,6 +40,19 @@ const skills = [
             name: "React",
             icon: <DiReact className="text-blue-500" size={30} />,
          },
+      ],
+   },
+   {
+      category: "Backend",
+      technologies: [
+         {
+            name: "Python",
+            icon: <DiPython className="text-blue-600" size={30} />,
+         },
+         {
+            name: "Django",
+            icon: <DiDjango className="text-green-800" size={30} />,
+         }
       ],
    },
    {

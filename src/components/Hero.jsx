@@ -21,7 +21,7 @@ const Hero = () => {
                transition={{ duration: 1 }}
             >
                <TypeAnimation
-                  sequence={["Front-end Developer", 1000]}
+                  sequence={["Full Stack Developer", 1000]}
                   speed={50}
                   repeat={Infinity}
                   className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-6"
@@ -64,7 +64,9 @@ const Hero = () => {
                      }}
                      className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
                   >
-                     Download Resume
+                     <a href="https://docs.google.com/document/d/1ulNmCP77hmHJcxPj9GftxsFkp6IR7ubHvcqmd4cD_lY/edit?usp=drive_link">
+                        Download Resume
+                     </a>
                   </motion.button>
 
                   <div className="flex gap-6 flex-row text-4xl md:text-5xl text-purple-400 z-20">

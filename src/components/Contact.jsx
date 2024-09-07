@@ -52,8 +52,8 @@ const Contact = () => {
                </div>
 
                <form
-                  action="https://getform.io/f/zaxdkoea"
-                  method="post"
+                  action="https://formsubmit.co/emiloladivine123@email.com"
+                  method="POST"
                   className="max-w-6xl p-4 md:p-12"
                   id="form"
                >

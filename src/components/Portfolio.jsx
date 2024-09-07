@@ -25,11 +25,11 @@ const projects = [
    },
    {
       img: noImage,
-      title: "GameHub",
-      description: "Lookup on different games",
+      title: "BrainWave",
+      description: "Diving into the world of AI",
       links: {
-         site: "https://game-hub-seven-iota-52.vercel.app/",
-         github: "https://github.com/divinesta/game-hub",
+         site: "https://div-brainwave.vercel.app/",
+         github: "https://github.com/divinesta/brainwave",
       },
    },
    {
