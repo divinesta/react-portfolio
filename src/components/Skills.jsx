@@ -9,7 +9,9 @@ import {
    DiGithubBadge,
    DiWordpress,
    DiPython,
-   DiDjango
+   DiDjango,
+   DiNodejs,
+
 } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -47,12 +49,24 @@ const skills = [
       technologies: [
          {
             name: "Python",
-            icon: <DiPython className="text-blue-600" size={30} />,
+            icon: <DiPython className="text-blue-600" size={40} />,
          },
          {
             name: "Django",
-            icon: <DiDjango className="text-green-800" size={30} />,
-         }
+            icon: <DiDjango className="text-green-800" size={40} />,
+         },
+         {
+            name: "NodeJs",
+            icon: <DiNodejs className="text-green-700" size={50} />,
+         },
+         {
+            name: "FastAPI",
+            icon: <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+fill="currentColor" viewBox="0 0 24 24" >
+<path d="m12,2.06c-5.52,0-10,4.46-10,9.97h0c0,5.5,4.48,9.97,10,9.97h0c5.52,0,10-4.46,10-9.97h0c0-5.51-4.48-9.97-10-9.97h0Zm-.69,4.51h6.29l-6.32,4.44h4.32l-9.2,6.47,2-4.44.91-2.03,2-4.44Z"></path>
+</svg>,
+         },
+
       ],
    },
    {

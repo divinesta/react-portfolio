@@ -5,26 +5,70 @@ import Reveal from "./Reveal";
 
 const projects = [
    {
-      img: noImage,
-      title: "Cloud",
-      description: "UI of a cloud storage server website",
+      img: "/src/assets/scoracimage.png",
+      title: "Scorac",
+      description: "An AI-powered platform transforming how programming is taught in universities and high schools through automation, personalized feedback, and AI-driven insights, eliminating outdated paper-based coding methods",
       links: {
-         site: "https://cloud-hosting-i8uz44jxn-divinestas-projects.vercel.app/",
-         github: "https://github.com/divinesta/PROJECT-2",
+         site: "https://scorac-blue-preview.vercel.app/",
+         github: "",
+      },
+   },
+   {
+      img: "/src/assets/scribblegreen.png",
+      title: "Scribble Green",
+      description: "Consultancy firm providing CV builder and professional digital solutions for businesses and professionals",
+      links: {
+         site: "https://scribblegreen.com/",
+         github: "",
+      },
+   },
+   {
+      img: "/src/assets/smartcontract.png",
+      title: "Kona",
+      description: "Visual tool for building, deploying, and managing smart contracts",
+      links: {
+         site: "https://kona-dusky.vercel.app/",
+         github: "",
+      },
+   },
+   {
+      img: "/src/assets/ifoghaleefamue.png",
+      title: "Ifoghale Efajemue",
+      description: "A portfolio website for a senior project manager",
+      links: {
+         site: "https://ifoghaleeva.com/",
+         github: "",
       },
    },
    {
       img: noImage,
+      title: "E-commerce Backend",
+      description: "An e-commerce website built in Django and React",
+      links: {
+         site: "",
+         github: "",
+      },
+   },
+   {
+      img: noImage,
+      title: "LMS Backend",
+      description: "A learning management system built in Django and React",
+      links: {
+         site: "",
+         github: "",
+      },
+   },
+   {
+      img: "/src/assets/sunnyside.png",
       title: "SunnySide",
       description: "A sunny side agency landing page",
       links: {
          site: "https://divinesta.github.io/sunnyside-agency-landing-page-main/",
-         github:
-            "https://github.com/divinesta/sunnyside-agency-landing-page-main",
+         github: "https://github.com/divinesta/sunnyside-agency-landing-page-main",
       },
    },
    {
-      img: noImage,
+      img: "/src/assets/brainwaveimg.png",
       title: "BrainWave",
       description: "Diving into the world of AI",
       links: {
@@ -33,7 +77,7 @@ const projects = [
       },
    },
    {
-      img: noImage,
+      img: "/src/assets/expensetracker.png",
       title: "Simple Expense Tracker",
       description: "Calculate your expenses",
       links: {
